@@ -46,8 +46,16 @@ p {
 }
 
 button {
-    padding: 15px 40px;
+    padding: 15px 30px; 
+    border: none;
     border-radius: 5px;
     background-color: #007bff; 
- 
+    color: #ffffff; 
+    font-size: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #0056b3; 
 }
